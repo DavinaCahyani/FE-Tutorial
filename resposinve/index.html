@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <header>Register Form</header>
+        <form action="#" class="form">
+            <div class="column">
+            <div class="input-box">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama" required>
+            </div>
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            </div>
+            <div class="column">
+            <div class="input-box">
+                <label for="nomor-telepon">Nomor Telepon</label>
+                <input type="tel" id="nomor-telepon" name="nomor-telepon" placeholder="Nomor Telepon" required>
+            </div>
+            <div class="input-box">
+                <label for="tanggal-lahir">Tanggal Lahir</label>
+                <input type="date" id="tanggal-lahir" name="tanggal-lahir" required>
+            </div>
+            </div>
+           
+            <div class="input-box address">
+                <div>
+                <label for="negara">Negara</label>
+                    <input type="text" id="negara" name="negara" placeholder="Negara" required>
+                </div>
+                <div class="column" style="margin-top: 15px;">
+                  <div>
+                  <label for="kota">Kota</label>
+                    <input type="text" id="kota" name="kota" placeholder="Kota" required>
+                  </div>
+                <div>
+                <label for="wilayah">Wilayah</label>
+                    <input type="text" id="wilayah" name="wilayah" placeholder="Wilayah" required>
+                </div>
+                <div>
+                <label for="kode pos">Kode Pos</label>
+                    <input type="number" id="kode-pos" name="kode-pos" placeholder="Kode Pos" required>
+                </div>
+                </div>
+            </div>
+            
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-laki" name="gender" checked>
+                        <label for="check-laki">Laki Laki</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-perempuan" name="gender">
+                        <label for="check-perempuan">Perempuan</label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
